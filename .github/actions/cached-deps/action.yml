@@ -8,8 +8,8 @@ inputs:
 
 outputs:
   used-cache:
-  descriptions: 'the cache are used'
-  value: ${{ steps.install.outputs.cache }}
+    descriptions: 'the cache are used'
+    value: ${{ steps.install.outputs.cache }}
 runs:
   using: 'composite'
   steps:
